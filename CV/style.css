@@ -1,0 +1,15 @@
+body{
+    background-color: #FAFAFA;
+    margin: 0;
+};
+
+header{
+    height: 200px;
+};
+
+.img-circle{
+    object-fit: cover;
+    width: 100%; /* Ancho deseado */
+    height: 100%; /* Alto deseado */
+    border-radius: 50%; /* Esto crea el efecto circular */
+};

@@ -27,8 +27,34 @@
 		<script src="https://kit.fontawesome.com/2ca0ee9282.js" crossorigin="anonymous"></script>
 
         <style>
+            body{
+                background-color: #FAFAFA;
+                margin: 0;
+            };
+
             p {
                 font-size: 16px;
+            }
+
+            main{
+                margin-bottom: 60px;
+            }
+            
+            a{
+                color: #333333;
+                text-decoration: none;
+            }
+            
+            a:visited{
+                color: #333333;
+            }
+
+            a:hover{
+                color: #949494;
+            }
+            
+            a:active{
+                text-decoration: none;
             }
         </style>
 	</head>
@@ -39,33 +65,35 @@
                 <h1>ANDREU MARTINEZ GUAL</h1>
             </div>
         </header>
-        <div class="container text-center">
-            <h2>Formación</h2>
-            <i id="coll1" class="fa fa-sort-desc fa-2x"  aria-hidden="true" data-toggle="collapse" data-target="#demo1" onclick="cambiarCollapse(this.id);" ></i>
-            <div id="demo1" class="collapse">
-                <p>CF. Sistemas Microinformaticos y Redes<br>CF. Desarrollo de Aplicaciones Web</p>
+        <main>
+            <div class="container text-center">
+                <h2>Formación</h2>
+                <i id="coll1" class="fa fa-sort-desc fa-2x"  aria-hidden="true" data-toggle="collapse" data-target="#demo1" onclick="cambiarCollapse(this.id);" ></i>
+                <div id="demo1" class="collapse">
+                    <p>CF. Sistemas Microinformaticos y Redes<br>CF. Desarrollo de Aplicaciones Web</p>
+                </div>
             </div>
-        </div>
-        <div class="container text-center">
-            <h2>Experiencia</h2>
-            <i id="coll2" class="fa fa-sort-desc fa-2x"  aria-hidden="true" data-toggle="collapse" data-target="#demo2" onclick="cambiarCollapse(this.id);" ></i>
-            <div id="demo2" class="collapse">
-                <p>Practicas Developer Intranet en Juniper</p>
+            <div class="container text-center">
+                <h2>Experiencia</h2>
+                <i id="coll2" class="fa fa-sort-desc fa-2x"  aria-hidden="true" data-toggle="collapse" data-target="#demo2" onclick="cambiarCollapse(this.id);" ></i>
+                <div id="demo2" class="collapse">
+                    <p>Practicas Developer Intranet en Juniper</p>
+                </div>
             </div>
-        </div>
-        <div class="container text-center">
-            <h2>Aptitudes</h2>
-            <i id="coll3" class="fa fa-sort-desc fa-2x"  aria-hidden="true" data-toggle="collapse" data-target="#demo3" onclick="cambiarCollapse(this.id);" ></i>
-            <div id="demo3" class="collapse">
-                <p>Proactivo<br>Decidido</p>
+            <div class="container text-center">
+                <h2>Aptitudes</h2>
+                <i id="coll3" class="fa fa-sort-desc fa-2x"  aria-hidden="true" data-toggle="collapse" data-target="#demo3" onclick="cambiarCollapse(this.id);" ></i>
+                <div id="demo3" class="collapse">
+                    <p>Proactivo<br>Decidido</p>
+                </div>
             </div>
-        </div>
+        </main>
         <footer class="footer navbar-fixed-bottom">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-xs-4 col-sm-4"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></div>
-                    <div class="col-xs-4 col-sm-4"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></div>
-                    <div class="col-xs-4 col-sm-4"><i class="fa fa-github fa-2x" aria-hidden="true"></i></div>
+                    <div class="col-xs-4 col-sm-4"><a class="fa fa-linkedin fa-2x" aria-hidden="true"></a></div>
+                    <div class="col-xs-4 col-sm-4"><a class="fa fa-envelope fa-2x" aria-hidden="true"></a></div>
+                    <div class="col-xs-4 col-sm-4"><a class="fa fa-github fa-2x" aria-hidden="true"></a></div>
                 </div>
             </div>
         </footer>

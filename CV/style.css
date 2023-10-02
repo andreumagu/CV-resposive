@@ -7,6 +7,14 @@ header{
     height: 200px;
 };
 
+main{
+    margin-bottom: 60px;
+}
+
+footer{
+    background-color: #FAFAFA;
+}
+
 .img-circle{
     object-fit: cover;
     width: 100%; /* Ancho deseado */
